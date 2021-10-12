@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+	<title>Tic Tac Toe</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Montserrat&display=swap"
+		rel="stylesheet"
+	/>
+	<script
+		src="https://kit.fontawesome.com/4cd9c4ed0a.js"
+		crossorigin="anonymous"
+	></script>
+	<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+	<header>
+		<h1>Tic Tac Toe</h1>
+	</header>
+
+    <p class='reset-button'>Reset Board</p>
+
+	<main>
+		<div class="t1 empty">
+			<i class="x hide">&#10005;</i><i class="o hide">&#9675;</i>
+		</div>
+		<div class="t2 empty">
+			<i class="x hide">&#10005;</i><i class="o hide">&#9675;</i>
+		</div>
+		<div class="t3 empty">
+			<i class="x hide">&#10005;</i><i class="o hide">&#9675;</i>
+		</div>
+		<div class="t4 empty">
+			<i class="x hide">&#10005;</i><i class="o hide">&#9675;</i>
+		</div>
+		<div class="t5 empty">
+			<i class="x hide">&#10005;</i><i class="o hide">&#9675;</i>
+		</div>
+		<div class="t6 empty">
+			<i class="x hide">&#10005;</i><i class="o hide">&#9675;</i>
+		</div>
+		<div class="t7 empty">
+			<i class="x hide">&#10005;</i><i class="o hide">&#9675;</i>
+		</div>
+		<div class="t8 empty">
+			<i class="x hide">&#10005;</i><i class="o hide">&#9675;</i>
+		</div>
+		<div class="t9 empty">
+			<i class="x hide">&#10005;</i><i class="o hide">&#9675;</i>
+		</div>
+	</main>
+	<article class="winner">
+		<p class="player hide">
+			The player wins with 3 x's in a row! Congratulations!
+		</p>
+		<p class="computer hide">
+			The computer wins with 3 o's in a row. Better luck next time!
+		</p>
+	</article>
+
+	<script
+		src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+		crossorigin="anonymous"
+	></script>
+	<script src="ttt.js"></script>
+</body>
