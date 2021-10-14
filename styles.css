@@ -35,8 +35,6 @@ main {
     grid-template-rows: 1fr 1fr 1fr;
     gap: 5px;
     background-color: black;
-    width: 610px;
-    height: 610px;
     margin: 0 auto;
 }
 
@@ -48,7 +46,6 @@ div {
     width: 200px;
     background-color: white;
     margin: 0 auto;
-    font-size: 180px;
     text-align: center;
     align-items: center;
 }
@@ -66,6 +63,7 @@ div {
     margin: 0 auto;
     margin-left: -2px;
     color: black;
+    font-size: 180px;
 }
 
 .o {
@@ -77,4 +75,24 @@ div {
 
 .winner {
     text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+    main {
+        gap: 3px;
+    }
+
+    div {
+        height: 100px;
+        width: 100px;
+    }
+
+    .x {
+        font-size: 100px;
+    }
+
+    .o {
+        font-size: 140px;
+        margin-top: -10px;
+    }
 }
